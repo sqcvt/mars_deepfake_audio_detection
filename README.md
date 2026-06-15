@@ -311,7 +311,7 @@ streamlit run app.py
 ---
 
 ## website is live at https://mars-deepfake-audio-detection-1.onrender.com
-## video link https://drive.google.com/file/d/1x90sE-F_npRUVxCQr4rrNGWes7cbqm32/view?usp=sharing
+## Demo video link https://drive.google.com/file/d/1x90sE-F_npRUVxCQr4rrNGWes7cbqm32/view?usp=sharing
 
 ---
 #  Future Improvements
