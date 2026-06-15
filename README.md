@@ -237,7 +237,7 @@ F1 Score = 2 × Precision × Recall / (Precision + Recall)
 Clone Repository
 
 ```bash
-git clone https://github.com/sqcvt/mars_deepfake-audio-detection.git
+git clone https://github.com/sqcvt/mars_deepfake_audio_detection.git
 
 cd deepfake_audio_detection
 ```
