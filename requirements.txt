@@ -1,0 +1,9 @@
+streamlit
+torch
+torchaudio
+transformers
+soundfile
+numpy
+pandas
+sentencepiece
+accelerate

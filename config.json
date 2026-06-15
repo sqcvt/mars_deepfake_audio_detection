@@ -1,0 +1,10 @@
+{
+  "threshold": 0.5104758116703305,
+  "sample_rate": 16000,
+  "duration": 4.0,
+  "model": "facebook/wav2vec2-base",
+  "labels": {
+    "0": "Genuine (Real)",
+    "1": "Deepfake (AI-Generated)"
+  }
+}
