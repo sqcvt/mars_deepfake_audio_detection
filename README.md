@@ -205,6 +205,60 @@ F1 Score = 2 × Precision × Recall / (Precision + Recall)
 
 ---
 
+# Performance Report
+
+The Detection system was evaluated on the held-out test dataset using multiple classification metrics to assess its effectiveness in distinguishing genuine speech from AI-generated speech.
+
+| Metric                 | Score      |
+| ---------------------- | ---------- |
+| Accuracy               | **84.07%** |
+| F1 Score               | **85.02%** |
+| Equal Error Rate (EER) | **8.08%** |
+| Real Audio Accuracy    | **79.55%** |
+| Fake Audio Accuracy    | **88.40%** |
+
+# Accuracy
+
+Accuracy measures the overall proportion of correctly classified audio samples. The model achieved an accuracy of **84.07%**, indicating strong performance in distinguishing real and fake speech.
+
+### F1 Score
+
+The F1 Score balances precision and recall, making it particularly useful for binary classification tasks. The model achieved an F1 Score of **85.02%**, demonstrating reliable detection performance across both classes.
+
+### Equal Error Rate (EER)
+
+EER represents the operating point where the False Acceptance Rate (FAR) equals the False Rejection Rate (FRR). Lower EER values indicate better discrimination between genuine and deepfake audio. The proposed model achieved an EER of **8.08%**.
+
+### Confusion Matrix
+
+|             | Predicted Real | Predicted Fake |
+| ----------- | -------------- | -------------- |
+| Actual Real | TN             | FP             |
+| Actual Fake | FN             | TP             |
+
+The confusion matrix provides a detailed breakdown of correct and incorrect predictions, helping analyze the model's strengths and failure cases.
+
+### Performance Visualization
+
+#### Score Distribution
+
+The probability distributions of real and fake audio samples show a clear separation between the two classes, with the EER threshold used as the optimal decision boundary.
+
+#### Confusion Matrix Heatmap
+
+A confusion matrix heatmap is generated to visualize classification performance and identify false positive and false negative predictions.
+
+---
+
+**Evaluation Metrics Used**
+
+* Accuracy
+* F1 Score
+* Equal Error Rate (EER)
+* Confusion Matrix
+* Class-wise Accuracy (Real and Fake)
+
+
 #  Technologies Used
 
 ### Deep Learning
