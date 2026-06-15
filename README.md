@@ -227,7 +227,7 @@ The Detection system was evaluated on the held-out test dataset using multiple c
 | Real Audio Accuracy    | **79.55%** |
 | Fake Audio Accuracy    | **88.40%** |
 
-# Accuracy
+### Accuracy
 
 Accuracy measures the overall proportion of correctly classified audio samples. The model achieved an accuracy of **84.07%**, indicating strong performance in distinguishing real and fake speech.
 
@@ -310,7 +310,7 @@ streamlit run app.py
 ```
 ---
 
-## **website is live at https://mars-deepfake-audio-detection-1.onrender.com **
+## website is live at https://mars-deepfake-audio-detection-1.onrender.com
 ## video link https://drive.google.com/file/d/1x90sE-F_npRUVxCQr4rrNGWes7cbqm32/view?usp=sharing
 
 ---
