@@ -205,6 +205,16 @@ F1 Score = 2 × Precision × Recall / (Precision + Recall)
 
 ---
 
+**Evaluation Metrics Used**
+
+* Accuracy
+* F1 Score
+* Equal Error Rate (EER)
+* Confusion Matrix
+* Class-wise Accuracy (Real and Fake)
+
+---
+
 # Performance Report
 
 The Detection system was evaluated on the held-out test dataset using multiple classification metrics to assess its effectiveness in distinguishing genuine speech from AI-generated speech.
@@ -249,15 +259,6 @@ The probability distributions of real and fake audio samples show a clear separa
 A confusion matrix heatmap is generated to visualize classification performance and identify false positive and false negative predictions.
 
 ---
-
-**Evaluation Metrics Used**
-
-* Accuracy
-* F1 Score
-* Equal Error Rate (EER)
-* Confusion Matrix
-* Class-wise Accuracy (Real and Fake)
-
 
 #  Technologies Used
 
