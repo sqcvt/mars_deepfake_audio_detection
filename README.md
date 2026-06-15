@@ -253,20 +253,9 @@ Run Application
 ```bash
 streamlit run app.py
 ```
-
 ---
 
-# 🌐 Deployment
-
-This project can be deployed on:
-
-* Render
-* Hugging Face Spaces
-* Streamlit Community Cloud
-
----
-
-# 🔮 Future Improvements
+#  Future Improvements
 
 * Support longer audio recordings
 * Real-time microphone inference
